@@ -1,0 +1,28 @@
+<h1>{{name}}Employees</h1>
+<table class="table">
+    <thead class="bg-dark">
+      <tr>
+        <th scope="col">Employee ID</th>
+        <th scope="col">First Name</th>
+        <th scope="col">Last Name</th>
+        <th scope="col">Salary</th>
+        <th scope="col">DOB</th>
+        <th scope="col">Email</th>
+      </tr>
+    </thead>
+    <tbody style="color:black">
+      <tr *ngFor="let employee of employees">
+       <td scope="col">{{employee.id}}</td>
+        <td scope="col">{{employee.fname}}</td>
+        <td scope="col">{{employee.lname}} </td>
+        <td scope="col">{{employee.salary}} </td>
+        <td scope="col">{{employee.dob}} </td>
+        <td scope="col">{{employee.email}} </td>
+        </tr>
+
+   
+
+    </tbody>
+
+
+    

@@ -1,0 +1,8 @@
+.table{
+    margin-top: 50px;
+    color:#ccc;
+}
+
+tbody >tr:hover{
+    background-color: bisque;
+}
